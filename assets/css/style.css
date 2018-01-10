@@ -21,13 +21,16 @@ footer {
 	padding: 40px;
 	border-top-style: solid;
 	border-color: #4aaaa5;
-	border-width: 10px;
+	border-width: 10px; 
 	/*position: fixed;
 	bottom: 0;
 	width: 100%;*/
 }
 
-h1, h2, h3 {font-family: 'Georgia', 'Times', 'Times New Roman', serif;}
+h1, h2, h3 {
+	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+	font-weight: bold;
+}
 
 h1 {
 	font-size: 20pt;
@@ -38,20 +41,27 @@ h1 {
 	float: left;
 }
 
+h2 { font-size: 16pt; }
+
+h3 { font-size: 14pt; }
+
 p {
 	display: inline;
 	line-height: 200%;
 }
 
-a {color: #777777;}
+a { color: #777777; }
 
 #headerUsedArea {
 	width: 960px;
 	margin: auto;
+	position: relative;
 }
 
 #topLinks {
-	float: right;
+	position: absolute;
+	right: 0px;
+	top: 40px;
 }
 
 .container {
@@ -59,13 +69,14 @@ a {color: #777777;}
 	background: #ffffff;
 	margin: auto; /*centers it*/
 	margin-bottom: 20px;
+	background: rgba(0, 0, 0, 0);
 }
 
 div.whiteBox {
 	background: white;
 	border-style: solid;
 	border-width: 1px;
-	border-color: gray;
+	border-color: #dddddd;
 	padding: 25px;
 }
 
@@ -82,6 +93,12 @@ div.whiteBox {
 #connectBox {
 	width: 220px;
 	float: left;
+}
+
+img.linkIcon {
+	width: 60px;
+	height: 60px;
+	margin: 5px;
 }
 
 #profileImage {
