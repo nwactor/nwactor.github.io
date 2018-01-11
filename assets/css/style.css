@@ -8,23 +8,21 @@ body {
 header {
 	background: #ffffff;
 	border-color: #cccccc;
-	border-style: solid;
-	border-width: 1px;
-	margin-bottom: 20px;
+	border-bottom-style: solid;
+	border-width: 2px;
+	margin-bottom: 40px;
 	overflow: auto;
 }
 
 footer {
 	background: #666666;
+	font-size: 9pt;
 	color: #ffffff;
 	text-align: center;
 	padding: 40px;
 	border-top-style: solid;
 	border-color: #4aaaa5;
-	border-width: 10px; 
-	/*position: fixed;
-	bottom: 0;
-	width: 100%;*/
+	border-width: 10px;
 }
 
 h1, h2, h3 {
@@ -33,7 +31,7 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 20pt;
+	font-size: 23pt;
 	color: #ffffff;
 	background: #4aaaa5;
 	padding: 30px;
@@ -41,16 +39,21 @@ h1 {
 	float: left;
 }
 
-h2 { font-size: 16pt; }
+h2 { 
+	font-size: 23pt;
+	margin-bottom: 20px;
+}
 
-h3 { font-size: 14pt; }
+h3 { font-size: 16pt; }
 
 p {
 	display: inline;
 	line-height: 200%;
 }
 
-a { color: #777777; }
+a {
+	text-decoration: none;
+}
 
 #headerUsedArea {
 	width: 960px;
@@ -62,13 +65,15 @@ a { color: #777777; }
 	position: absolute;
 	right: 0px;
 	top: 40px;
+	text-decoration: none;
+	color: #777777;
 }
 
 .container {
 	width: 964px;
 	background: #ffffff;
 	margin: auto; /*centers it*/
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	background: rgba(0, 0, 0, 0);
 }
 
@@ -80,14 +85,24 @@ div.whiteBox {
 	padding: 25px;
 }
 
+div.boxContents {
+	margin: 20px 0px 20px 0px;
+}
+
 .tealText {
 	color: #4aaaa5;
 }
 
-#bioBox {
+#mainBox {
 	width: 600px;
 	margin-right: 40px;
 	float: left;
+}
+
+#profileImage {
+	width: 300px;
+	float: left;
+	margin-right: 20px;
 }
 
 #connectBox {
@@ -101,10 +116,26 @@ img.linkIcon {
 	margin: 5px;
 }
 
-#profileImage {
-	width: 300px;
-	float: left;
-	margin-right: 5px;
+.portEntry {
+	position: relative;
+	margin: 0px;
+	/*margin-right: 30px;*/
+	margin-bottom: 40px;
+	/*float: left;*/
+}
+
+.portImage {
+	width: 280px;
+}
+
+.imgCover {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+	color: #ffffff;
+	background: #4aaaa5;
+	padding: 20px 0px 20px 0px;
 }
 
 .clearfix::after {
