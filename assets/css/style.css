@@ -147,9 +147,15 @@ img.linkIcon {
 .portEntry {
 	position: relative;
 	margin: 0px;
-	/*margin-right: 30px;*/
 	margin-bottom: 40px;
-	/*float: left;*/
+}
+
+.leftEntry {
+	float: left;
+}
+
+.rightEntry {
+	float: right;
 }
 
 .portImage {
@@ -170,4 +176,105 @@ img.linkIcon {
     content: "";
     clear: both;
     display: table;
+}
+
+@media screen and (max-width: 980px) {
+	#profileImage {
+		float: none;
+		display: block;
+		margin-bottom: 20px;
+	}
+	#mainBox {
+		width: 300px;
+	}
+	.container {
+		width: 664px;
+		margin: auto;
+		margin-bottom: 40px;
+	}
+	#headerUsedArea {
+		width: 664px;
+		margin: auto; 
+	}
+	.portEntry {
+		display: block;
+		margin: auto;
+		margin-bottom: 40px;
+		float: none;
+		width: 280px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 728px;
+		margin: 0px 20px 40px 20px;
+	}
+	#mainBox {
+		width: 676px;
+		margin-bottom: 40px;
+	}
+	#profileImage {
+		float: left;
+		display: inline;
+	}
+	#connectBox {
+		width: 676px;
+	}
+	#headerUsedArea {
+		width: 728px;
+	}
+	.portEntry, .portImage {
+		width: 320px;
+	}
+	.leftEntry {
+		float: left;
+	}
+	.rightEntry {
+		float: right;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	header { 
+		position: static;
+		width: 640px;
+		overflow: visible;
+		margin-bottom: 20px;
+	}
+	#headerUsedArea {
+		width: 640px;
+	}
+	h1 {
+		width: 640px;
+		float: none;
+		display: block;
+		text-align: center;
+		padding: 30px 0px 30px 0px;
+	}
+	#topLinks {
+		position: static;
+		text-align: center;
+		margin: auto;
+		padding: 25px 0px 25px 0px;
+	}
+	a.headerLink {
+		margin: 50px;
+		color: #777777;
+	}
+	.container {
+		width: 600px;
+	}
+	#mainBox, #connectBox {
+		width: 550px;
+	}
+	.portEntry {
+		display: block;
+		margin: auto;
+		margin-bottom: 40px;
+		float: none;
+	}
+	.portEntry, .portImage {
+		width: 550px;
+	}
 }
