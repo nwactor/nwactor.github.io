@@ -1,0 +1,52 @@
+body {
+	background-color: #c9cacc;
+}
+
+h1, h2 {
+	color: gold;
+	font-size: 30px;
+}
+
+header {
+	background-color: #a0143c;
+	
+	padding: 5px;
+	border-bottom: 2px solid silver;
+
+	overflow: auto;
+}
+
+h1 {
+	float: left;
+}
+
+#section-links {
+	float: right;
+	width: 70%;
+}
+
+.section-link {
+	display: inline;
+	padding: 4px 10% 4px 10%;
+	cursor: pointer;
+}
+
+.current-section-highlight {
+	font-weight: bold;
+	color: #a0143c;
+	background-color: gold;
+}
+
+#content {
+	margin: 50px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #666666;
+	padding: 20px;
+	border-top: 1px solid silver;
+}
