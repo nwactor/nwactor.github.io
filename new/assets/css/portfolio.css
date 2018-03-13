@@ -1,4 +1,46 @@
-#headshot {
-	max-height: 200px; /*placeholder*/
-	border-radius: 50%;
+#profile-container {
+	position: relative;
+}
+
+#current-project-area {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 78%;
+	padding: 1%;
+}
+
+#sidebar {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 18%;
+
+	text-align: center;
+	background-color: #a0143c;
+
+	animation: 0.75s ease-out 0s 1 slideInFromRight;
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.project-category {
+	color: gold;
+	font-family: arial;
+	/*font-weight: bold;*/
+	padding: 10% 0% 10% 0%;
+	cursor: pointer;
+}
+
+.selected-category {
+	font-weight: bold;
+	color: #a0143c;
+	background-color: gold;
 }

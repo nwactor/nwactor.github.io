@@ -1,3 +1,7 @@
+#container {
+	margin: 50px;
+}
+
 #headshot {
 	max-height: 200px; /*placeholder*/
 	border-radius: 50%;

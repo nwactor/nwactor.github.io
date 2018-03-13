@@ -1,10 +1,15 @@
 body {
 	background-color: #c9cacc;
+	background-image: url('../images/soft_circle_scales.png');
 }
 
 h1, h2 {
 	color: gold;
 	font-size: 30px;
+}
+
+h3 {
+	font-size: 28px;
 }
 
 header {
@@ -38,7 +43,6 @@ h1 {
 }
 
 #content {
-	margin: 50px;
 }
 
 footer {
