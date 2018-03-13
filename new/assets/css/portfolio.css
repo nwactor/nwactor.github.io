@@ -1,19 +1,15 @@
-#profile-container {
-	position: relative;
+#portfolio-container {
 }
 
 #current-project-area {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 78%;
+	width: 74%;
 	padding: 1%;
+	margin: 2%;
+	display: inline-block; /*the one that works: lets the sidebar be inline, but this still gets a top margin*/
 }
 
 #sidebar {
-	position: absolute;
-	top: 0;
-	right: 0;
+	float: right;
 	width: 18%;
 
 	text-align: center;
