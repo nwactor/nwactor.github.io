@@ -1,0 +1,78 @@
+{
+	"Applications": [
+		{
+			"name": "World Outlook",
+			"img": "./assets/images/wo.png",
+			"body": "",
+			"link": "",
+			"source": "https://github.com/nwactor/WorldOutlook"
+		},
+		{
+			"name": "BART Now",
+			"img": "./assets/images/bartnow.png",
+			"body": "",
+			"link": "",
+			"source": "https://github.com/yiyi098/BART-Now"
+		},
+		{
+			"name": "Wellsent",
+			"img": "./assets/images/wellsent.png",
+			"body": "",
+			"link": "https://wellsent.herokuapp.com/",
+			"source": "https://github.com/nwactor/wellsent"
+		},
+		{
+			"name": "Checkers+",
+			"img": "./assets/images/checkers.png",
+			"body": "Checkers+ is an Android app that allows the user to play checkers against their friends locally, or against the computer. I collaborated in creating it in fall 2016 for a course in mobile applications at Brandeis University.",
+			"link": "",
+			"source": "https://github.com/nwactor/CheckersPlus"
+		}
+	],
+	"Small Projects": [
+		{
+			"name": "Gifs by Nationallity",
+			"img": "./assets/images/gifpage.png",
+			"body": "",
+			"link": "https://nwactor.github.io/GifPage/",
+			"source": "https://github.com/nwactor/GifPage"
+		},
+		{
+			"name": "Space Trivia",
+			"img": "./assets/images/trivia.jpg",
+			"body": "",
+			"link": "https://nwactor.github.io/TriviaGame/",
+			"source": "https://github.com/nwactor/TriviaGame"
+		}
+	],
+	"Games": [
+		{
+			"name": "The Arena",
+			"img": "",
+			"body": "",
+			"link": "",
+			"source": ""
+		},
+		{
+			"name": "Space Miner",
+			"img": "./assets/images/spaceminer.png",
+			"body": "",
+			"link": "https://nwactor.github.io/Space-Miner/",
+			"source": "https://github.com/nwactor/Space-Miner"
+		},
+		{
+			"name": "Diplomacy",
+			"img": "./assets/images/dip.png",
+			"body": "",
+			"link": "",
+			"source": ""
+		},
+		{
+			"name": "Bowman",
+			"img": "",
+			"body": "",
+			"link": "",
+			"source": ""
+		}
+	]
+}

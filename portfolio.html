@@ -1,75 +1,99 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Nick Wactor</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
-<body>
-	<!-- White Bar at top of page -->
-	<header>
-		<div id="headerUsedArea">
-			<h1>Nick Wactor</h1>
-			<div id="topLinks">
-				<a class="headerLink" href="index.html">About</a> |
-				<a class="headerLink" href="portfolio.html">Portfolio</a> |
-				<a class="headerLink" href="contact.html">Contact</a>
-			</div>
-		</div>
-	</header>
+<div id="portfolio-container">
+	<div id="current-project-area">
+		<!-- Projects go here -->
+	</div>
+	<div id="sidebar">
+		<h3 class='project-category selected-category'>Applications</h3>
+		<h3 class='project-category'>Small Projects</h3>
+		<h3 class='project-category'>Games</h3>
+	</div>
+</div>
 
-	<!--Main content area-->
-	<section class="container clearfix">
-		<!--Left box-->
-		<div id="mainBox" class="whiteBox">
-			<h2 class="tealText">Portfolio</h2>
-			<hr>
-			<div class="boxContents">
-				<a class="portEntry leftEntry" href="https://nwactor.github.io/Hangman/">
-					<img class="portImage" src="./assets/images/hangman.png">
-					<div class="imgCover">Hangman</div>
-				</a>
-				<a class="portEntry rightEntry" href="https://nwactor.github.io/star-wars-rpg/">
-					<img class="portImage" src="./assets/images/starwars.png">
-					<div class="imgCover">Star Wars</div>
-				</a>
-				<a class="portEntry leftEntry" href="https://nwactor.github.io/TriviaGame/">
-					<img class="portImage" src="./assets/images/trivia.jpg">
-					<div class="imgCover">Space Trivia</div>
-				</a>
-				<a class="portEntry rightEntry" href="https://nwactor.github.io/GifPage/">
-					<img class="portImage" src="./assets/images/gifpage.png">
-					<div class="imgCover">Giphy API App</div>
-				</a>
-				<a class="portEntry leftEntry" href="https://github.com/yiyi098/BART-Now">
-					<img class="portImage" src="./assets/images/bartnow.png">
-					<div class="imgCover">BART-Now</div>
-				</a>
-			</div>
-		</div>
-		
-		<div id="connectBox" class="whiteBox">
-			<h3 class="tealText">Connect with Me</h3>
-			<hr>
-			<div class="boxContents">
-				<a href="https://github.com/nwactor" target="_blank">
-					<img class="linkIcon" src="./assets/images/githubLogo.png" alt="github">
-				</a>
-				<a href="https://www.linkedin.com/in/nick-wactor-9b6777113/" target="_blank">
-					<img class="linkIcon" src="./assets/images/linkedinLogo.png" alt="linkedin">
-				</a>
-				<a href="https://stackoverflow.com/users/6655336/jnw" target="_blank">
-					<img class="linkIcon" src="./assets/images/stackoverflowLogo.png" alt="stackoverflow">
-				</a>
-			</div>
-		</div>
-	</section>
+<script type="text/javascript">
+	
+	//=========================================
+	//================On Load==================
+	//=========================================
 
-	<!-- Bottom Bar -->
-	<footer>
-		<p>Copyright &copy; 2018 Nick Wactor</p>
-	</footer>
-</body>
-</html>
+	var currentCat = 'Applications';
+	var portfolio;
+	$.getJSON('./assets/js/portfolio.json').then(function(data) {
+		portfolio = data;
+		createPortfolioEntries();
+	});
+
+	//=========================================
+	//==========Portfolio Categories===========
+	//=========================================
+
+	$('.project-category').on('click', function() {
+		$('.project-category').removeClass('selected-category');
+		$(this).addClass('selected-category');
+		currentCat = $(this).text();
+		displayCategoryEntries(currentCat);
+	});
+
+	//=========================================
+	//============Portfolio Entries============
+	//=========================================
+
+	function createPortfolioEntries() {
+		var projects = [];
+		//push all the projects, with their categories, into an array
+		//to ensure that they won't display until all have been loaded
+		for (var cat in portfolio) {
+		    if (Object.prototype.hasOwnProperty.call(portfolio, cat)) {
+		        portfolio[cat].forEach(function(entry) {
+		        	projects.push({project: entry, cat: cat});
+		        });
+		    }
+		}
+		createPortEntry(projects, 0);
+	}
+
+	//recursively add all of the entries to the dom and don't display any until they've
+	//all been loaded
+	function createPortEntry(projects, index) {
+		if(index <= projects.length - 1) {
+			var project = projects[index].project;
+
+			var entry = $('<div>');
+			entry.addClass('port-entry hidden');
+			entry.attr('data-category', projects[index].cat);
+
+			entry.load('./portfolioEntry.html', function() {
+				entry.find('.project-title').text(project.name);
+				entry.find('.project-description').text(project.body);
+				entry.find('.project-img').attr('src', project.img);
+				entry.find('.project-link').attr('href', project.link);
+				entry.find('.project-source').attr('href', project.source);
+
+				var link = entry.find('.project-link');
+				var source = entry.find('.project-source');
+
+				if(link.attr('href') === '') {
+					link.addClass('hidden');
+				}
+				if(source.attr('href') === '') {
+					source.addClass('hidden');
+				}
+
+				$('#current-project-area').append(entry);
+
+				createPortEntry(projects, index + 1)
+			});
+		} else {
+			//now all projects have loaded
+			displayCategoryEntries();
+		}	
+	}
+
+	function displayCategoryEntries() {
+		$('#current-project-area').find('.port-entry').addClass('hidden');
+		$('#current-project-area').find('.port-entry').toArray().forEach(function(entry) {
+			if($(entry).attr('data-category') === currentCat) {
+				$(entry).removeClass('hidden');
+			}
+		});
+	}
+</script>
