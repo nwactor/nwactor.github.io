@@ -3,12 +3,50 @@
 	width: 90%;
 }
 
+#top-section {
+	display: flex;
+	background-color: white;
+	padding: 15px;
+	border: 1px solid gray;
+}
+
 #headshot {
 	max-height: 200px; /*placeholder*/
 	border-radius: 50%;
 }
 
+#contact-div {
+	margin-left: 30px;
+	text-align: center;
+	height: 200px;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#contact-header {
+	display: flex;
+	flex-direction: column;
+}
+
+#contact-title {
+	color: #026670;
+}
+
+#profile-links {
+	display: flex;
+	justify-content: space-between;
+}
+
+.linkIcon {
+	height: 100px;
+}
+
+/*lower section*/
+
 #profile-text {
 	font-size: 20px;
 	column-count: 3;
+	margin-top: 30px;
 }

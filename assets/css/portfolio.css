@@ -14,17 +14,22 @@
 }
 
 .port-entry {
-	background-color: #d8d8d8;
-	border: 2px solid silver;
+	background-color: #f9f9f9;
 	height: 200px;
+	border: 2px solid silver;
+	border-radius: 10px;
 	margin-bottom: 30px;
 }
 
 .project-header {
-	color: gold;
-	background-color: #a0143c;
+	color: #e0ddd7;
+	background-color: #6f86a5;
 	width: 100%;
 	height: 20%;
+	border-top-right-radius: 9px;
+	border-top-left-radius: 9px;
+	display: flex;
+	align-items: center;
 }
 
 .project-title {
@@ -35,16 +40,30 @@
 .project-body {
 	display: flex;
 	height: 80%;
+	width: 100%;
 }
 
 .project-img {
 	height: 100%;
-	width: 15%;
+	width: 20%;
+	border-bottom-left-radius: 10px;
 }
 
 .project-info {
+	width: 100%;
+}
+
+.project-links {
+	padding-bottom: 5px;
+	border-bottom: 1px solid gray;
+}
+
+a.project-link, a.project-source, .project-description {
 	margin-left: 3%;
-	width: 67%;
+}
+
+.project-description {
+	margin-top: 5px;
 }
 
 /* Sidebar */
@@ -59,7 +78,7 @@
 	flex-direction: column;
 
 	text-align: center;
-	background-color: #a0143c;
+	background-color: #6f86a5;
 
 	animation: 0.75s ease-out 0s 1 slideInFromRight;
 }
@@ -74,7 +93,7 @@
 }
 
 .project-category {
-	color: gold;
+	color: #e0ddd7;
 	font-family: arial;
 	/*font-weight: bold;*/
 	padding: 10% 0% 10% 0%;
@@ -83,6 +102,7 @@
 
 .selected-category {
 	font-weight: bold;
-	color: #a0143c;
-	background-color: gold;
+	color: #6f86a5;
+	/*color: #a0143c;*/
+	background-color: #ffcb00;
 }

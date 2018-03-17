@@ -1,5 +1,7 @@
 html, body {
 	height: 100%;
+	line-height: 170%; /*this font needs it*/
+	font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -8,7 +10,7 @@ body {
 }
 
 h1, h2 {
-	color: gold;
+	color: #e0ddd7;
 	font-size: 30px;
 }
 
@@ -17,7 +19,7 @@ h3 {
 }
 
 header {
-	background-color: #a0143c;
+	background-color: #6f86a5;
 	
 	/*padding: 5px;*/
 	border-bottom: 2px solid silver;
@@ -59,8 +61,8 @@ h1 {
 
 .current-section-highlight {
 	font-weight: bold;
-	color: #a0143c;
-	background-color: gold;
+	color: #6f86a5;
+	background-color: #ffcb00;
 }
 
 #content {

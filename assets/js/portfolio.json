@@ -3,21 +3,21 @@
 		{
 			"name": "BART Now",
 			"img": "./assets/images/bartnow.png",
-			"body": "",
-			"link": "",
+			"body": "placeholder",
+			"link": "https://yiyi098.github.io/BART-Now",
 			"source": "https://github.com/yiyi098/BART-Now"
 		},
 		{
 			"name": "Wellsent",
 			"img": "./assets/images/wellsent.png",
-			"body": "",
+			"body": "placeholder",
 			"link": "https://wellsent.herokuapp.com/",
 			"source": "https://github.com/nwactor/wellsent"
 		},
 		{
 			"name": "World Outlook",
 			"img": "./assets/images/wo.png",
-			"body": "",
+			"body": "placeholder",
 			"link": "",
 			"source": "https://github.com/nwactor/WorldOutlook"
 		},
@@ -33,21 +33,21 @@
 		{
 			"name": "Gifs by Nationallity",
 			"img": "./assets/images/gifpage.png",
-			"body": "",
+			"body": "placeholder",
 			"link": "https://nwactor.github.io/GifPage/",
 			"source": "https://github.com/nwactor/GifPage"
 		},
 		{
 			"name": "Space Trivia",
 			"img": "./assets/images/trivia.jpg",
-			"body": "",
+			"body": "placeholder",
 			"link": "https://nwactor.github.io/TriviaGame/",
 			"source": "https://github.com/nwactor/TriviaGame"
 		},
 		{
 			"name": "Star Wars RPG",
-			"img": "",
-			"body": "",
+			"img": "./assets/images/starwars.png",
+			"body": "placeholder",
 			"link": "https://nwactor.github.io/star-wars-rpg/",
 			"source": "https://github.com/nwactor/star-wars-rpg"
 		}
@@ -56,28 +56,28 @@
 		{
 			"name": "Space Miner",
 			"img": "./assets/images/spaceminer.png",
-			"body": "",
+			"body": "placeholder",
 			"link": "https://nwactor.github.io/Space-Miner/",
 			"source": "https://github.com/nwactor/Space-Miner"
 		},
 		{
 			"name": "Diplomacy",
 			"img": "./assets/images/dip.png",
-			"body": "",
+			"body": "placeholder",
 			"link": "",
 			"source": ""
 		},
 		{
 			"name": "The Arena",
-			"img": "",
-			"body": "",
+			"img": "./assets/images/arena.png",
+			"body": "placeholder",
 			"link": "",
 			"source": ""
 		},
 		{
 			"name": "Bowman",
 			"img": "./assets/images/bowman.png",
-			"body": "",
+			"body": "placeholder",
 			"link": "",
 			"source": ""
 		}
