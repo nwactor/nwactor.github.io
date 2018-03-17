@@ -1,13 +1,6 @@
 {
 	"Applications": [
 		{
-			"name": "World Outlook",
-			"img": "./assets/images/wo.png",
-			"body": "",
-			"link": "",
-			"source": "https://github.com/nwactor/WorldOutlook"
-		},
-		{
 			"name": "BART Now",
 			"img": "./assets/images/bartnow.png",
 			"body": "",
@@ -20,6 +13,13 @@
 			"body": "",
 			"link": "https://wellsent.herokuapp.com/",
 			"source": "https://github.com/nwactor/wellsent"
+		},
+		{
+			"name": "World Outlook",
+			"img": "./assets/images/wo.png",
+			"body": "",
+			"link": "",
+			"source": "https://github.com/nwactor/WorldOutlook"
 		},
 		{
 			"name": "Checkers+",
@@ -43,6 +43,13 @@
 			"body": "",
 			"link": "https://nwactor.github.io/TriviaGame/",
 			"source": "https://github.com/nwactor/TriviaGame"
+		},
+		{
+			"name": "Star Wars RPG",
+			"img": "",
+			"body": "",
+			"link": "https://nwactor.github.io/star-wars-rpg/",
+			"source": "https://github.com/nwactor/star-wars-rpg"
 		}
 	],
 	"Games": [

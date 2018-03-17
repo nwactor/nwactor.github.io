@@ -16,7 +16,7 @@
 .port-entry {
 	background-color: #d8d8d8;
 	border: 2px solid silver;
-	height: 400px;
+	height: 200px;
 	margin-bottom: 30px;
 }
 
@@ -29,7 +29,7 @@
 
 .project-title {
 	margin-left: 1%;
-	font-size: 60px;
+	font-size: 35px;
 }
 
 .project-body {
@@ -39,7 +39,7 @@
 
 .project-img {
 	height: 100%;
-	width: 30%;
+	width: 15%;
 }
 
 .project-info {
@@ -55,7 +55,7 @@
 	height: 100%;
 	
 	display: flex;
-	justify-content: space-around;
+	/*justify-content: space-around;*/
 	flex-direction: column;
 
 	text-align: center;
