@@ -54,13 +54,6 @@
 	],
 	"Games": [
 		{
-			"name": "The Arena",
-			"img": "",
-			"body": "",
-			"link": "",
-			"source": ""
-		},
-		{
 			"name": "Space Miner",
 			"img": "./assets/images/spaceminer.png",
 			"body": "",
@@ -75,8 +68,15 @@
 			"source": ""
 		},
 		{
-			"name": "Bowman",
+			"name": "The Arena",
 			"img": "",
+			"body": "",
+			"link": "",
+			"source": ""
+		},
+		{
+			"name": "Bowman",
+			"img": "./assets/images/bowman.png",
 			"body": "",
 			"link": "",
 			"source": ""
