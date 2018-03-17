@@ -1,0 +1,28 @@
+#experience-container {
+	width: 90%;
+	height: 100%;
+	margin-bottom: 30px;
+	/*display: block;
+	justify-content: space-between;*/
+}
+
+.experience-section {
+	margin-top: 30px;
+}
+
+.exp-header {
+	color: #026670;
+	font-size: 40px;
+}
+
+h3.job-location {
+	font-size:30px;
+}
+
+h4.job-title {
+	font-size: 20px;
+}
+
+#courses {
+	margin-left: 10px;
+}
