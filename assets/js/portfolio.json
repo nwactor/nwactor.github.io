@@ -22,6 +22,13 @@
 			"source": "https://github.com/nwactor/WorldOutlook"
 		},
 		{
+			"name": "Therify",
+			"img": "./assets/images/therify.png",
+			"body": "﻿Therify is a cross-platform mobile app that allows users to upload photos that with verfied locations and timestamps that can then be viewed by others using the app. It provides access to reliable images of destinations that can be commented on and rated by users.",
+			"link": "https://expo.io/@nwactor/therify",
+			"source": "https://github.com/nwactor/WorldOutlook"
+		},
+		{
 			"name": "Checkers+",
 			"img": "./assets/images/checkers.png",
 			"body": "Checkers+ is an Android app that allows the user to play checkers against their friends locally, or against the computer. It was created in fall 2016 for a course in mobile applications at Brandeis University. Checkers+ is fully native, developed using Java in Andriod Studio.",
