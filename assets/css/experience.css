@@ -1,9 +1,12 @@
 #experience-container {
 	width: 90%;
 	height: 100%;
-	margin-bottom: 30px;
-	/*display: block;
-	justify-content: space-between;*/
+	margin-top: 20px;
+	display: flex;
+}
+
+#work-section {
+	width: 55%;
 }
 
 .experience-section {
@@ -13,10 +16,12 @@
 .exp-header {
 	color: #026670;
 	font-size: 40px;
+	margin-bottom: 15px;
+	font-weight: bold;
 }
 
 h3.job-location {
-	font-size:30px;
+	font-size: 28px;
 }
 
 h4.job-title {
@@ -25,4 +30,13 @@ h4.job-title {
 
 #courses {
 	margin-left: 10px;
+}
+
+p {
+	margin-left: 5px;
+}
+
+div.subsection {
+	margin-left: 15px;
+	margin-bottom: 10px;
 }
