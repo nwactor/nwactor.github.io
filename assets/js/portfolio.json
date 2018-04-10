@@ -8,13 +8,6 @@
 			"source": "https://github.com/yiyi098/BART-Now"
 		},
 		{
-			"name": "Wellsent",
-			"img": "./assets/images/wellsent.png",
-			"body": "Wellsent is a prototype for a secure messaging app that provides custom encryption for server-side messages so that users don't have to worry about the app's owners accessing their data. It uses a Node/Express/MySQL stack.",
-			"link": "https://wellsent.herokuapp.com/",
-			"source": "https://github.com/nwactor/wellsent"
-		},
-		{
 			"name": "World Outlook",
 			"img": "./assets/images/wo.png",
 			"body": "﻿World Outlook is a Windows desktop application designed to help users organize their notes, projects, and documentation in the security of their own hard-drive. It provides a wiki-like format in which entries are organized by \"tags,\" allowing for quick and intuitive searching and filtering. It is being developed mostly in C# using the WPF .NET framework.",
@@ -27,6 +20,13 @@
 			"body": "﻿Therify is a cross-platform mobile app that allows users to upload photos that with verfied locations and timestamps that can then be viewed by others using the app. It provides access to reliable images of destinations that can be commented on and rated by users.",
 			"link": "https://expo.io/@nwactor/therify",
 			"source": "https://github.com/nwactor/WorldOutlook"
+		},
+		{
+			"name": "Wellsent",
+			"img": "./assets/images/wellsent.png",
+			"body": "Wellsent is a prototype for a secure messaging app that provides custom encryption for server-side messages so that users don't have to worry about the app's owners accessing their data. It uses a Node/Express/MySQL stack.",
+			"link": "https://wellsent.herokuapp.com/",
+			"source": "https://github.com/nwactor/wellsent"
 		},
 		{
 			"name": "Checkers+",
