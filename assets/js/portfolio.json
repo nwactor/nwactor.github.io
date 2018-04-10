@@ -40,21 +40,21 @@
 		{
 			"name": "Gifs by Nationallity",
 			"img": "./assets/images/gifpage.png",
-			"body": "placeholder",
+			"body": "A funny and somewhat informative webpage that allows vistors to view top trending gifs of several preset countries. It also gives the option to search for any other countries the user is interested in, as well. Gifs are courtesy of the Giphy API.",
 			"link": "https://nwactor.github.io/GifPage/",
 			"source": "https://github.com/nwactor/GifPage"
 		},
 		{
 			"name": "Space Trivia",
 			"img": "./assets/images/trivia.jpg",
-			"body": "placeholder",
+			"body": "A short game that tests your knowledge of space and cosmology. Try to not run out of time! Space Trivia is the result of practicing Javascript's setInterval function.",
 			"link": "https://nwactor.github.io/TriviaGame/",
 			"source": "https://github.com/nwactor/TriviaGame"
 		},
 		{
 			"name": "Star Wars RPG",
 			"img": "./assets/images/starwars.png",
-			"body": "placeholder",
+			"body": "Another short game that asks you to pick your favorite Star Wars character and battle against the rest of them. The trick to the game is picking the right order in which to fight your opponents, as each character has unique stats, and each grows more powerful at a different rate after every round of combat. The game is on a standard webpage, powered by a lot of jQuery.",
 			"link": "https://nwactor.github.io/star-wars-rpg/",
 			"source": "https://github.com/nwactor/star-wars-rpg"
 		}
