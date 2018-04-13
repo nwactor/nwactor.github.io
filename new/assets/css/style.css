@@ -1,0 +1,68 @@
+html,
+body,
+#content {
+  height: 100%;
+  min-height: 100%;
+}
+
+.navbar {
+	/*position: fixed;*/
+	background-color: #a7b9d1;
+	width: 100%;
+	padding-left: 0;
+    padding-right: 0;
+  	border-bottom: 1px solid transparent;
+  	border-bottom-color: #e6e6e6;
+  	margin-bottom: 30px;
+}
+
+.nav li {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.nav a {
+	text-decoration: none;
+}
+
+/*h2.title {
+	display: inline-block;
+	font-size: 50px;
+	font-weight: 100;
+	padding: 10px 0;
+	margin-bottom: 44px;
+	text-align: center;
+	border-bottom: solid 1px #ccc;
+	border-top: solid 1px #ccc;
+	text-transform: uppercase;
+	line-height: 1.2;
+}*/
+
+h1, h2 {
+	color: #026670;
+}
+
+.section {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	text-align: center;
+}
+
+#about {
+	height: 100%;
+	background-image: url('../images/background.png');
+}
+
+#headshot-img {
+	max-height: 200px; /*placeholder*/
+	border-radius: 50%;
+}
+
+#projects {
+	height: 100%;
+	background-color: #f7f7f7
+}
+
+#experience {
+	height: 100%;
+}
