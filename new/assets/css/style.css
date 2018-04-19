@@ -5,6 +5,8 @@ body,
   min-height: 100%;
 }
 
+/*Navbar -------------------------------------*/
+
 .navbar {
 	/*position: fixed;*/
 	background-color: #a7b9d1;
@@ -19,6 +21,10 @@ body,
 .nav li {
 	padding-right: 10px;
 	padding-left: 10px;
+}
+
+.nav li.active {
+	border-top: 5px solid gold;
 }
 
 .nav a {
@@ -42,15 +48,20 @@ h1, h2 {
 	color: #026670;
 }
 
+h2 {
+	margin-bottom: 40px;
+}
+
 .section {
 	padding-top: 80px;
 	padding-bottom: 80px;
 	text-align: center;
 }
 
+/*About Section -------------------------------------*/
+
 #about {
 	height: 100%;
-	background-image: url('../images/background.png');
 }
 
 #headshot-img {
@@ -58,11 +69,57 @@ h1, h2 {
 	border-radius: 50%;
 }
 
+/*Projects Section -------------------------------------*/
+
 #projects {
+	height: 100%;
+	background-image: url('../images/background.png');
+}
+
+
+/*Experience Section -------------------------------------*/
+
+#experience {
 	height: 100%;
 	background-color: #f7f7f7
 }
 
-#experience {
-	height: 100%;
+.container-wide {
+	min-width: 95%;
+}
+
+#experience-container {
+	text-align: left;
+}
+
+#experience-container p {
+	margin-left: 5px;
+}
+
+.experience-section {
+	margin-top: 30px;
+}
+
+.exp-header {
+	color: #026670;
+	font-size: 40px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+h3.job-location {
+	font-size: 28px;
+}
+
+h4.job-title {
+	font-size: 20px;
+}
+
+#courses {
+	margin-left: 10px;
+}
+
+.subsection {
+	margin-left: 15px;
+	margin-bottom: 10px;
 }

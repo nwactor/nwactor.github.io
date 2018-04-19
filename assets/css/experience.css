@@ -1,7 +1,7 @@
 #experience-container {
-	width: 90%;
 	height: 100%;
 	margin-top: 20px;
+	margin: auto;
 	display: flex;
 }
 

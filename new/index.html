@@ -4,6 +4,7 @@
 	<title>Nick Wactor</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body data-spy="scroll" data-target="#navigation" data-offset="120">
 
@@ -16,7 +17,7 @@
 
             <div id="navigation">
                 <ul class="nav">
-                    <li>
+                    <li class="active">
                     	<a href="#about">About</a>
                     </li>
                     <li>
@@ -48,9 +49,8 @@
 
     	<div class="section" id="about">
     		<div class="container">
-    			<div class="row">
-    				<h2>About Me</h2>
-    			</div>
+    			<h2>About Me</h2>
+
 
     			<div class="row">
     				<div class="col-sm-6 text-left">
@@ -69,9 +69,96 @@
 
     	<div class="section" id="experience">
     		<h2>Experience</h2>
-    	</div>
+            
+            <div class="container container-wide">
+                
+                <div id="experience-container" class="row">
+    
+                <div class="col-6">
+                    <div class="experience-section">
+                        <h2 class="exp-header">Tech I Use</h2>
+                        <div class="subsection">
+                            Programming/Development Languages: Java, Javascript, C#, HTML/CSS, C
+                            <br>
+                            Databases: MySQL, MongoDB, SQLite
+                            <br>
+                            Web Technologies: Bootstrap, React, Node.js, Express, JSON, jQuery, AJAX, REST
+                            <br>
+                            Libraries/Frameworks: .NET (WPF)
+                            <br>
+                            Design Patterns: MVC
+                            <br>
+                            OS: Windows, Linux, Mac
+                            <br>
+                            Tools: Eclipse, Android Studio, Visual Studio, Blender, Adobe Photoshop, GIMP, Unreal Engine 4
+                        </div>
+                    </div>
+                    
+                    <div class="experience-section">
+                        <h2 class="exp-header">Education</h2>
+                        <div class="subsection">
+                            <div>
+                                <span>UC Berkeley Extension Full Stack Web Development Program</span>
+                            </div>
+                            <div>
+                                <span>B.S. in Computer Science, 2017 – Brandeis University, Waltham, MA</span>
+                                <p>Computer Science University Courses:</p>
+                                <ul id="courses">
+                                    <li>Data Structures and the Fundamentals of Computing</li>
+                                    <li>Operating Systems</li>
+                                    <li>Database Management Systems</li>
+                                    <li>Introduction to Big Data Analysis</li>
+                                    <li>Structure and Interpretation of Computer Programs</li>
+                                    <li>Mobile Application Development</li>
+                                    <li>Introduction to the Theory of Computation</li>
+                                    <li>Computer Graphics</li>
+                                    <li>3D Animation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                        <h2 class="exp-header">Work Experience</h2>
+                        <div>
+                            <h3 class="job-location">Brandeis University</h3>
+                            <div class="subsection">
+                                <h4 class="job-title">Datastructures & Algorithms Teaching Assistant</h4>
+                                <p>Held office hours twice a week for Brandeis University's Data Structures & Algorithms and Introduction to Programming courses, helping students with assignments, concepts, and programming techniques. Graded tests and assignments for quality, efficiency, and style. Proctored multi-hour exams.</p>
+                            </div>
+                            <div>
+                                <h3 class="job-location">McKay Brothers</h3>
+                                <div class="subsection">
+                                    <h4 class="job-title">Software Engineering Intern</h4>
+                                    <p>McKay brothers is a telecommunications company at the top of its field in delivering market information between Chicago and New York. During my 2016 internship here I implemented, optimized, and bench-marked Java and C applications for encoding and decoding binary messages using Simple Binary Encoding. I also developed skills using C in and working in a Linux environment.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="job-location">Four Winds Westward Ho</h3>
+                                <div class="subsection">
+                                    <h4 class="job-title">Camp Counselor</h4>
+                                    <p>Personally responsible for the entertainment, well-being, day-to-day needs, and mentoring of four successive tent-groups of boys over month-long periods. Engaged daily in leadership and team-work with fellow waterfront staff. Activities included lesson planning, life guarding, instructing canoeing and sailing classes of up to ten children, and being shadowed by counselors-in-training to help them develop skills in leading, teaching, and working with kids. 
+                                    <br>
+                                    Time at Four Winds deeply valued as a period that impressed the importance and benefits of teamwork, imagination, self-reliance, and a strong, closely-knit community.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <h3></h3>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+
+            </div>
+        </div>
+
+            
 
     </div>
 
+<script type="text/javascript" src="./assets/js/main.js"></script>
 </body>
 </html>
