@@ -17,7 +17,8 @@
 
             <div id="navigation">
                 <ul class="nav">
-                    <li class="active">
+                    <!-- <li class="active"> -->
+                    <li>
                     	<a href="#about">About</a>
                     </li>
                     <li>
@@ -49,7 +50,7 @@
 
     	<div class="section" id="about">
     		<div class="container">
-    			<h2>About Me</h2>
+    			<h2 class="section-title">About Me</h2>
 
 
     			<div class="row">
@@ -64,62 +65,117 @@
     	</div>
 
     	<div class="section" id="projects">
-    		<h2>My work</h2>
+    		<h2 class="section-title">My Projects</h2>
+
+            <div class="container container-wide">
+                <div class="row">
+                    <div class="col-5">
+                        <p>Here are six of the projects I've worked on recently.</p>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="project-thumbnail-container">
+                                    <img class="project-thumbnail" src="./assets/images/bartnow.png">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="project-thumbnail-container">
+                                    <img class="project-thumbnail" src="./assets/images/checkers.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="project-thumbnail-container">
+                                    <img class="project-thumbnail" src="./assets/images/spaceminer.png">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="project-thumbnail-container">
+                                    <img class="project-thumbnail" src="./assets/images/wellsent.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="project-thumbnail-container">
+                                    <img class="project-thumbnail" src="./assets/images/wo.png">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="project-thumbnail-container">
+                                    <img class="project-thumbnail" src="./assets/images/therify.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="col-7" id="selected-project-panel">
+                        <div class="row">
+                            <h3>Title</h3>
+                        </div>
+                        <div class="row">
+                            <img src="" alt="banner">
+                        </div>
+                        <div class="row">
+                            description
+                        </div>
+                    </div>
+                </div>
+            </div>
     	</div>
 
     	<div class="section" id="experience">
-    		<h2>Experience</h2>
+    		<h2 class="section-title">My Experience</h2>
             
             <div class="container container-wide">
                 
                 <div id="experience-container" class="row">
     
-                <div class="col-6">
-                    <div class="experience-section">
-                        <h2 class="exp-header">Tech I Use</h2>
-                        <div class="subsection">
-                            Programming/Development Languages: Java, Javascript, C#, HTML/CSS, C
-                            <br>
-                            Databases: MySQL, MongoDB, SQLite
-                            <br>
-                            Web Technologies: Bootstrap, React, Node.js, Express, JSON, jQuery, AJAX, REST
-                            <br>
-                            Libraries/Frameworks: .NET (WPF)
-                            <br>
-                            Design Patterns: MVC
-                            <br>
-                            OS: Windows, Linux, Mac
-                            <br>
-                            Tools: Eclipse, Android Studio, Visual Studio, Blender, Adobe Photoshop, GIMP, Unreal Engine 4
-                        </div>
-                    </div>
-                    
-                    <div class="experience-section">
-                        <h2 class="exp-header">Education</h2>
-                        <div class="subsection">
-                            <div>
-                                <span>UC Berkeley Extension Full Stack Web Development Program</span>
-                            </div>
-                            <div>
-                                <span>B.S. in Computer Science, 2017 – Brandeis University, Waltham, MA</span>
-                                <p>Computer Science University Courses:</p>
-                                <ul id="courses">
-                                    <li>Data Structures and the Fundamentals of Computing</li>
-                                    <li>Operating Systems</li>
-                                    <li>Database Management Systems</li>
-                                    <li>Introduction to Big Data Analysis</li>
-                                    <li>Structure and Interpretation of Computer Programs</li>
-                                    <li>Mobile Application Development</li>
-                                    <li>Introduction to the Theory of Computation</li>
-                                    <li>Computer Graphics</li>
-                                    <li>3D Animation</li>
-                                </ul>
+                    <div class="col-6">
+                        <div class="experience-section">
+                            <h2 class="exp-header">Tech I Use</h2>
+                            <div class="subsection">
+                                Programming/Development Languages: Java, Javascript, C#, HTML/CSS, C
+                                <br>
+                                Databases: MySQL, MongoDB, SQLite
+                                <br>
+                                Web Technologies: Bootstrap, React, Node.js, Express, JSON, jQuery, AJAX, REST
+                                <br>
+                                Libraries/Frameworks: .NET (WPF)
+                                <br>
+                                Design Patterns: MVC
+                                <br>
+                                OS: Windows, Linux, Mac
+                                <br>
+                                Tools: Eclipse, Android Studio, Visual Studio, Blender, Adobe Photoshop, GIMP, Unreal Engine 4
                             </div>
                         </div>
+                        
+                        <div class="experience-section">
+                            <h2 class="exp-header">Education</h2>
+                            <div class="subsection">
+                                <div>
+                                    <span>UC Berkeley Extension Full Stack Web Development Program</span>
+                                </div>
+                                <div>
+                                    <span>B.S. in Computer Science, 2017 – Brandeis University, Waltham, MA</span>
+                                    <p>Computer Science University Courses:</p>
+                                    <ul id="courses">
+                                        <li>Data Structures and the Fundamentals of Computing</li>
+                                        <li>Operating Systems</li>
+                                        <li>Database Management Systems</li>
+                                        <li>Introduction to Big Data Analysis</li>
+                                        <li>Structure and Interpretation of Computer Programs</li>
+                                        <li>Mobile Application Development</li>
+                                        <li>Introduction to the Theory of Computation</li>
+                                        <li>Computer Graphics</li>
+                                        <li>3D Animation</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-6">
+                    <div class="col-6">
                         <h2 class="exp-header">Work Experience</h2>
                         <div>
                             <h3 class="job-location">Brandeis University</h3>
@@ -149,8 +205,8 @@
                             </div>
                         </div>
                     </div>
-                
-            </div>
+                    
+                </div>
 
             </div>
         </div>
